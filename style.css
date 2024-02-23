@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(38, 8, 109);
+}
+
+h3{
+    font-size: x-large;
+}
+
+.container{
+    background-color: white;
+    font-weight: bolder;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-top: 40vh;
+    padding: 4vh 1vh;
+    width: 20vw;
+    transform: rotate(5deg);
+}
+
+.con{
+    display: flex;
+    flex-direction: row;
+    margin-left: 11vh;
+}
+
+#reload{
+    margin-left: 5px;
+    padding: 0px 10px;
+}
+
+input{
+    margin: 1vh;
+    height: 3vh;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#button{
+    margin-top: 10px;
+    font-weight: bolder;
+    color: aqua;
+    background-color: rgb(38, 8, 109);
+    padding: 10px 20px;
+}
+
+#Captcha{
+    height: 3vh;
+    border: 2px solid black;
+    width: 18vh;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#result{
+    margin-top: 20px;
+}
